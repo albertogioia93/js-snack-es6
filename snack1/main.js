@@ -2,9 +2,12 @@
 
 const listaInvitati = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni', 'Fedez', 'George Clooney', 'Amal Clooney', 'Maneskin'];
 
-listaInvitati.forEach((element) => {
-    console.log(element);
-});
+// listaInvitati.forEach((element) => {
+//     console.log(element);
+// });
+
+// semplifico il foreach di riga 5
+listaInvitati.forEach((element) => console.log(element));
 
 
 
