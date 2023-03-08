@@ -48,3 +48,12 @@ const elencoStudenti = [
 const nomiDimap = elencoStudenti.map((element) => element.nome.toUpperCase());
 
 console.log(nomiDimap);
+
+const votiSuperiori = elencoStudenti.filter((element) => {
+    if (element.voto > 70) {
+        return true;
+    }
+    return false;
+}).map((element) => element.nome.toUpperCase());
+
+console.log(votiSuperiori);
