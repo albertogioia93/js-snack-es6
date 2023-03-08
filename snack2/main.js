@@ -57,3 +57,29 @@ const votiSuperiori = elencoStudenti.filter((element) => {
 }).map((element) => element.nome.toUpperCase());
 
 console.log(votiSuperiori);
+
+// const votiEid = elencoStudenti.filter((element) => {
+//     if (element.voto > 70) {
+//         return true;
+//     }
+//     if (element.id > 120) {
+//         return true;
+//     }
+//     return false;
+    
+// });
+
+// console.log(votiEid);
+
+const votiEid = elencoStudenti.filter((element) => {
+    if (element.voto > 70 && element.id > 120) {
+        return true;
+    }
+    return false;
+}).map((element) => element.nome.toUpperCase());
+
+
+console.log(votiEid);
+
+
+
