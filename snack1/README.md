@@ -7,8 +7,6 @@ Generiamo e stampiamo in console la lista per i segnaposto.
 
 COME SVOLGO QUESTO ESERCIZIO:
 
-- Creo una variabile e la chiamo segnaposto
-- Creo una variabile e la chiamo Tavolo Vip
 - Creo un array con dentro la lista di nomi dei vip
 - Trasformo le stringhe dell'array in oggetti 
 - Agli oggetti attribuisco delle parole chiave (nome del tavolo, nome dell'ospite e posto occupato)

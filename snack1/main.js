@@ -2,12 +2,40 @@
 
 const listaInvitati = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni', 'Fedez', 'George Clooney', 'Amal Clooney', 'Maneskin'];
 
+// col ciclo map vado a manipolare gli elementi di un array
+const arraySegnaposti = listaInvitati.map((element, index) => {
+    return {
+        nomeTavolo: 'Tavolo Vip',
+        nomeOspite: element,
+        postoNumero: index
+    }
+});
+
+console.log(arraySegnaposti);
+
+// per stampare in console la lista che si vede in maniera completa senza aprire le freccettine
+arraySegnaposti.forEach(posto => {
+    console.log(posto);
+});
+
+
+// *******************************************************************************************
+// /FINE PRIMO SNACK
+// *******************************************************************************************
+
+
+
+// *******************************************************************************************
+// INIZIO APPUNTI PERSONALI SULLA LEZIONE ODIERNA
+// *******************************************************************************************
+
+
 // listaInvitati.forEach((element) => {
 //     console.log(element);
 // });
 
 // semplifico il foreach di riga 5
-listaInvitati.forEach((element) => console.log(element));
+// listaInvitati.forEach((element) => console.log(element));
 
 
 
