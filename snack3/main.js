@@ -1,5 +1,6 @@
 'use strict';
 
+// creazione di un array lista di bici che contiene degli oggetti
 const biciDaCorsa = [
     {
         nome: 'graziella',
