@@ -18,3 +18,10 @@ const biciDaCorsa = [
         peso: 10,
     },
 ];
+
+// destrutturazione di un array
+const [,,,terzo] = biciDaCorsa;
+
+// uso del template literal per scrivere un testo in console che comprende la variabile della destrutturazione creata per ricavare la bici più leggera
+console.log(`la bicicletta della lista che ha il peso minore rispetto alle altre, si chiama ${terzo.nome} e pesa ${terzo.peso} kg`);
+
