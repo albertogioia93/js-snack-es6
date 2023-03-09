@@ -31,6 +31,26 @@ const secondaLista = squadreComplete.map((element) => {
 });
 
 
+// creazione seconda lista con soli nomi delle squadre e falli subiti
+const listaFinale = secondaLista.map((element) => {
+    const {nome, falliSubiti} = element;
+    return {
+        nome,
+        falliSubiti,
+    }
+});
+
+// stampa in console della seconda lista senza aprire le freccettine
+listaFinale.forEach((element) => {
+    console.log(element);
+});
+
+
+
+
+
+
+
 
 
 
